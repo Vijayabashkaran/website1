@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/x-icon" href="images.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKY Sarees&textiles-Home</title>
+    <link rel="icon" type="image/jpeg" href="logo.jpg">
+    <style>
+       ul li a{
+      text-decoration: none;
+      /* float: right; */
+      align-items: center;
+      color: orange;
+    }
+    nav{
+      margin-top: 25px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .logo{
+      color: palevioletred;
+      font-weight: bolder;
+      font-size: 30px;
+      float: left;
+    }
+    nav ul{
+      list-style: none;
+      float: right;
+      margin: 0;
+      padding: 0;
+      display: flex; 
+     }
+     nav ul li a{
+      /* line-height: 80px; */
+      padding: 12px 30px;
+      /* text-decoration: none; */
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      /* margin-top: 30px; */
+      margin-top: 50rem;
+     }
+     ul li :hover{
+    
+      text-decoration: underline;
+      color:orange;
+      /* border: 2px orange dashed;
+      border-top: 2rem;
+      border-radius: 10px;
+      height: 1px; */
+     }
+     .carousel{
+        /* padding-left: 50px;
+        padding-right: 50px; */
+        margin-bottom: 30px;
+        color: whitesmoke;
+        margin-top: 30px;
+        /* padding-top: 20px; */
+     }
+     .cotton_sarees{
+        padding-left: 40px;
+        padding-right: 40px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+     }
+     .silk_sarees{
+      padding-left: 30px;
+        padding-right: 30px;
+      display: flex;
+      justify-content: space-between;
+     }
+     .mens_collection{
+      display: flex;
+      /* padding-left: 10px;
+      padding-right: 10px; */
+      justify-content: space-evenly;
+     }
+     .kerala_collections{
+      display: flex;
+      padding-left: 30px;
+      padding-right: 30px;
+      justify-content: space-between;
+     }
+     .chudithar_collection{
+      display: flex;
+      padding-left: 30px;
+      padding-right: 30px;
+      justify-content: space-between;
+     }
+     .night_wears{
+      display: flex;
+      padding-left: 30px;
+      padding-right: 30px;
+      justify-content: space-between;
+     }
+     .couple_collections{
+      display: flex;
+      padding-left: 30px;
+      padding-right: 30px;
+      justify-content: space-between;
+     }
+     .about_alignment{
+                width: 283px;
+            }
+            .footer_alignment{
+                display: flex;
+                margin-left: 50px;
+            }
+            .address_alignment{
+                width: 290px;
+                margin-left: 190px;
+            }
+            .foot_color{
+                background-color:rgb(129, 8, 83);
+                color: whitesmoke;
+            }
+            /* hr{
+                color: white;
+            } */
+            .iconic_color {
+                word-spacing: 30px;
+                color: whitesmoke;
+            }
+            .iconic_color i{
+                color: white;
+            }
+            a{
+              text-decoration: none;
+            }
+            .line_color{
+                color: white;
+            }
+            .final_alignment{
+                text-align: center;
+                /* margin-top: 10px; */
+                justify-content: space-between;
+                padding: 2px;
+            }
+            .cotton_heading{
+              margin-top: 10px;
+              margin-bottom: 10px;
+            }
+            .follow_align{
+              margin-left: 190px;
+            }
+            .btn-primary{
+              width: 250px;
+            }
+            /* .hed_cs{
+              animation-name: csh;
+              animation-duration: 1.5s;
+              animation-timing-function: linear;
+              transition: 5s;
+              
+            }
+            @keyframes csh{
+              from{
+                transform: translatey(-100px );
+              }
+              to{
+                transform: x(-50px);
+              }
+            }
+            .hed_ss{
+              animation-name: ssh;
+              animation-duration: 3.3s;
+              animation-timing-function: ease-in-out;
+              transition-delay: 3s;
+              transition: 5s;
+            }
+            @keyframes ssh{
+              from{
+                transform: translatex(900px );
+              }
+              to{
+                transform: x(-50px);
+              }
+            }
+            .hed_mc{
+              animation-name: mc;
+              animation-duration: 7s;
+              animation-timing-function: linear;
+              transition: 1s;
+              
+            }
+            @keyframes mc{
+              from{
+                transform: translatex(-700px );
+              }
+              to{
+                transform: x(-50px);
+              }
+            }
+            .hed_kc{
+              animation-name: kc;
+              animation-duration: 8s;
+              animation-timing-function: linear;
+              transition: 5s;
+            }
+            @keyframes kc{
+              from{
+                transform: translatex(500px);
+              }
+              to{
+                transform: x(-50px);
+              }
+            }
+            .hed_ksc{
+              animation-name: ks;
+              animation-duration: 9s;
+              animation-timing-function: linear;
+              transition: 2s;
+            }
+            @keyframes ks{
+              from{
+                transform: translatex(700px );
+              }
+              to{
+                transform: x(-50px);
+              }
+            } */
+            .card:hover{
+              animation-name: sar;
+              animation-duration: 2s;
+              box-shadow: 10px 10px 10px;
+            }
+            @keyframes sar {
+              50%{
+                transform: translatex(10px);
+              }
+              100%{
+                transform: scale(1.06);
+              }
+              
+            }
+    </style>
+</head>
+ <body>
+    <div>
+        <nav>
+            <h3 class="logo"> SKY Sarees online shopping</h3>
+            <ul>
+              <li><a href="http://127.0.0.1:5501/sky_sarees_home_page.html">Home</a></li>
+              <li><a href="http://127.0.0.1:5501/SKY%20sarees_About%20page.html">About</a></li>
+              <li><a href="http://127.0.0.1:5501/contact.html">Contact</a></li>
+              <li><a href="">Cart</a></li>
+            </ul>
+        </nav>
+    </div><br>
+  
+    <div class="carousel">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="banner2.jpg" class="d-block  " alt="..." style="height: 40rem; width: 80rem;">
+                <div class="carousel-caption d-none d-md-block">
+                  <!-- <h5>Silk sarees</h5>
+                  <p>All type of silk sarees are avialbe.</p> -->
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="model2.jpg" class="d-block w-100" alt="..." style="height: 40rem;">
+                <div class="carousel-caption d-none d-md-block">
+                  <!-- <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p> -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="model3.jpg" class="d-block w-100" alt="..." style="height: 40rem;">
+                <div class="carousel-caption d-none d-md-block">
+                  <!-- <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p> -->
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <!-- saree cards cotton sarees
+    <h1 style="padding-left: 40px; color: darkmagenta; margin-top: 10px ; margin-bottom: 20px;" class="hed_cs">Cotton Sarees</h1></div>
+    <div class="cotton_heading row justify-content-md">
+    
+      <div class="cotton_sarees row container justify-content-md-center">
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card h-100" style="width: 100%;">
+                <img src="ctn1.jpg" class="card-img-top" alt="Elampillai cotton saree" style="height: 17rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Elampillai cotton saree</h5>
+                    <p class="card-text">This cotton saree is one of the premium collections, 100% cotton. For more, click view page.</p>
+                    <a href="http://127.0.0.1:5501/Elampillai_cs.html" class="btn btn-primary">View Page</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card h-100" style="width: 100%;">
+                <img src="ctn2.jpg" class="card-img-top" alt="Aandipatti cotton saree" style="height: 17rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Aandipatti cotton saree</h5>
+                    <p class="card-text">This cotton saree is one of the premium collections, 100% cotton. For more, click view page.</p>
+                    <a href="http://127.0.0.1:5501/Andipatti_cs.html" class="btn btn-primary">View Page</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card h-100" style="width: 100%;">
+                <img src="ctn3.jpg" class="card-img-top" alt="Chinalla patti cotton saree" style="height: 17rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Chinalla patti cotton saree</h5>
+                    <p class="card-text">This cotton saree is one of the premium collections, 100% cotton. For more, click view page.</p>
+                    <a href="#" class="btn btn-primary">View Page</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card h-100" style="width: 100%;">
+                <img src="ctn4.jpg" class="card-img-top" alt="Cotton sungadi saree" style="height: 17rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Cotton sungadi saree</h5>
+                    <p class="card-text">This cotton saree is one of the premium collections, 100% cotton. For more, click view page.</p>
+                    <a href="#" class="btn btn-primary">View Page</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+    <!--silk sarees-->
+    <h1 style="padding-left: 40px; color: rgb(229, 49, 49); margin-top: 20px; margin-bottom: 25px;" class="hed_ss">Silk Sarees</h1>
+    <div class="silk_sarees">
+        <div class="card" style="width: 18rem; justify-content: space-around;" >
+            <img src="soft silk.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Soft silk </h5>
+              <p class="card-text">This is one of the bridal collection for women for the temple& golden statue look for more collections click view page.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;" >
+            <img src="nikki silk.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Nikki silks</h5>
+              <p class="card-text">This is one of the bridal collection for women for the temple& golden statue look for more collections click view page.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div></div>
+            <div class="card" style="width: 18rem;" >
+                <img src="mangalayan silk.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Maangalayan saree</h5>
+                  <p class="card-text">This is one of the bridal collection for women for the temple& golden statue look for more collections click view page.</p>
+                  <a href="#" class="btn btn-primary">view page</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;" >
+                <img src="wedding silk.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Wedding bridal silk</h5>
+                  <p class="card-text">This is one of the bridal collection for women for the temple& golden statue look for more collections click view page.</p>
+                  <a href="#" class="btn btn-primary">view page</a>
+                </div>
+              </div>
+              
+    </div><br>
+    <!--silk_sarees2-->
+    <div class="silk_sarees" >
+      <div class="card" style="width: 18rem;" >
+        <img src="marrage sarees.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+        <div class="card-body">
+          <h5 class="card-title">Marrage collections</h5>
+          <p class="card-text">This is one of the bridal collection for women for the temple& golden statue look for more collections click view page.</p>
+          <a href="#" class="btn btn-primary">view page</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;" >
+        <img src="kovai silk.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+        <div class="card-body">
+          <h5 class="card-title">Kovai silk saree</h5>
+          <p class="card-text">This is one of the bridal collection for women for the temple& golden statue look for more collections click view page.</p>
+          <a href="#" class="btn btn-primary">view page</a>
+        </div></div>
+        <div class="card" style="width: 18rem;" >
+            <img src="elite bridal.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Elite bridal silk saree</h5>
+              <p class="card-text">This is one of the bridal collection for women for the temple& golden statue look for more collections click view page.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;" >
+            <img src="kovai soft silk.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Kovai soft silk saree</h5>
+              <p class="card-text">This is one of the bridal collection for women for the temple& golden statue look for more collections click view page.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div>
+          </div>
+
+    </div>
+    <!--Mens collection-->
+    <h1 style="padding-left: 40px; color: darkblue; margin-top: 20px; margin-bottom: 25px;" class="hed_mc">Mens collection</h1>
+    <div class="mens_collection">
+      
+        <div class="card" style="width: 18rem;" >
+            <img src="copper dothi.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Men copper vesti satai combo</h5>
+              <p class="card-text">One of the unique collections for men for the brave&handsome look, for more collections click view page.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;" >
+            <img src="silver dothi.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Men silver vesti satai combo</h5>
+              <p class="card-text">One of the unique collections for men for the brave&handsome look, for more collections click view page.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div></div>
+            <div class="card" style="width: 18rem;" >
+                <img src="golden dothi.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Men golden vesti satai combo</h5>
+                  <p class="card-text">One of the unique collections for men for the brave&handsome look, for more collections click view page.</p>
+                  <a href="#" class="btn btn-primary">view page</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;" >
+                <img src="cotton dothi.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Men cotton vesti satai combo</h5>
+                  <p class="card-text">One of the unique collections for men for the brave&handsome look, for more collections click view page.</p>
+                  <a href="#" class="btn btn-primary">view page</a>
+                </div>
+              </div>
+    
+    </div>
+    <!--Kids collection-->
+    <div class="kids_collection">
+      <h1 style="padding-left: 40px; color: darkred; margin-top: 20px; margin-bottom: 25px;" class="hed_kc">Kids collection</h1>
+       <div class="silk_sarees">
+        <div class="card" style="width: 18rem;" >
+            <img src="kids welgrow.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Kids cotton vesti satai</h5>
+              <p class="card-text">This unique collections for little kids one of the marvolous collections for more collection click view page.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;" >
+            <img src="boys copper vesti.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Boys copper vesti satai</h5>
+              <p class="card-text">This unique collections for little kids one of the marvolous collections for more collection click view page.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div></div>
+            <div class="card" style="width: 18rem;" >
+                <img src="girls silk pavada.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Girls silk pavada satai</h5>
+                  <p class="card-text">This unique collections for little kids one of the marvolous collections for more collection click view page.</p>
+                  <a href="#" class="btn btn-primary">view page</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;" >
+                <img src="baba suite.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Baby baba suite</h5>
+                  <p class="card-text">This unique collections for little kids one of the marvolous collections for more collection click view page.</p>
+                  <a href="#" class="btn btn-primary">view page</a>
+                </div>
+              </div>
+    </div>
+    <!--kerala sarees-->
+    <h1 style="padding-left: 40px; color: goldenrod; margin-top: 20px; margin-bottom: 25px;" class="hed_ksc">Kerala sarees</h1>
+    <div class="kerala_collections">
+      <div class="card" style="width: 18rem;" >
+        <img src="kerala printed saree.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+        <div class="card-body">
+          <h5 class="card-title">kerala printed saree</h5>
+          <p class="card-text">This is marvolovus collection of kerala sarees 100% pure cotton material for more collectios click view page</p>
+          <a href="#" class="btn btn-primary">view page</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;" >
+        <img src="kerala designer saree.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+        <div class="card-body">
+          <h5 class="card-title">Kerala designer saree</h5>
+          <p class="card-text">This is marvolovus collection of kerala sarees 100% pure cotton material for more collectios click view page</p>
+          <a href="#" class="btn btn-primary">view page</a>
+        </div></div>
+        <div class="card" style="width: 18rem;" >
+            <img src="kerala peacock saree.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Kerala peacock saree</h5>
+              <p class="card-text">This is marvolovus collection of kerala sarees 100% pure cotton material for more collectios click view page</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;" >
+            <img src="kerala black designed saree.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Kerala black designer saree</h5>
+              <p class="card-text">This is marvolovus collection of kerala sarees 100% pure cotton material for more collectios click view page</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div>
+          </div>
+    </div>
+    <!--chudi-->
+    <h1 style="padding-left: 40px; color: palevioletred; margin-top: 20px; margin-bottom: 25px;">Chudithar</h1>
+    <div class="chudithar_collection">
+      <div class="card" style="width: 18rem;" >
+        <img src="pranjul chudi.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+        <div class="card-body">
+          <h5 class="card-title">Pranjul chudithar</h5>
+          <p class="card-text">This is the new trending collections for young laides and womens 100% pure cotton material very comfortable to wear for more collections click view page.</p>
+          <a href="#" class="btn btn-primary">view page</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;" >
+        <img src="chudi with lining.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+        <div class="card-body">
+          <h5 class="card-title">Chudithar with lining</h5>
+          <p class="card-text">This is the new trending collections for young laides and womens 100% pure cotton material very comfortable to wear for more collections click view page.</p>
+          <a href="#" class="btn btn-primary">view page</a>
+        </div></div>
+        <div class="card" style="width: 18rem;" >
+            <img src="printed chudi.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Printed chudithar</h5>
+              <p class="card-text">This is the new trending collections for young laides and womens 100% pure cotton material very comfortable to wear for more collections click view page.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;" >
+            <img src="embri chudi.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Embrodi chudithar</h5>
+              <p class="card-text">This is the new trending collections for young laides and womens 100% pure cotton material very comfortable to wear for more collections click view page.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div>
+          </div>
+    </div><br><br>
+    <!--chudi2-->
+    <div class="chudithar_collection">
+      <div class="card" style="width: 18rem;" >
+        <img src="memssb chudi.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+        <div class="card-body">
+          <h5 class="card-title">MEMSSB Chudithar</h5>
+          <p class="card-text">This is the new trending collections for young laides and womens 100% pure cotton material very comfortable to wear for more collections click view page.</p>
+          <a href="#" class="btn btn-primary">view page</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;" >
+        <img src="panna fansy chudi.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+        <div class="card-body">
+          <h5 class="card-title">Panna fansy chudiar</h5>
+          <p class="card-text">This is the exclusive collections for young laides and womens 100% pure cotton material very comfortable to wear for more collections click view page.</p>
+          <a href="#" class="btn btn-primary">view page</a>
+        </div></div>
+        <div class="card" style="width: 18rem;" >
+            <img src="printed chudi.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Printed chudithar</h5>
+              <p class="card-text">This is the new trending collections for young laides and womens 100% pure cotton material very comfortable to wear for more collections click view page.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;" >
+            <img src="rasmika chudi material.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">rasmika chudithar material</h5>
+              <p class="card-text">This is the trending dress for college girls and working women 100% cotton material for more click view page.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div>
+          </div>
+    </div>
+    <!--ladies night wears-->
+    <h1 style="padding-left: 40px; color: darkgoldenrod; margin-top: 20px; margin-bottom: 25px;">Ladies night wears</h1>
+    <div class="night_wears">
+        <div class="card" style="width: 18rem;" >
+            <img src="nities.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Cotton nities</h5>
+              <p class="card-text">This unique collections is for ladies to wear comfortable 100% pure cotton material for  more collections click view page.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;" >
+            <img src="collar nities.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Collar nities</h5>
+              <p class="card-text">This unique collections is for ladies the material was 100% pure cotton for more collections click view page.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div></div>
+            <div class="card" style="width: 18rem;" >
+                <img src="night dess.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Girls nifht dress</h5>
+                  <p class="card-text">This unique collections for small girls, the amterial was 100& pure cotton and very comfotable to wear for more collections click view page.</p>
+                  <a href="#" class="btn btn-primary">view page</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;" >
+                <img src="young age night dress.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Ladies night dress</h5>
+                  <p class="card-text">This unique collections for young ladies,the matrial was 100% pure cotton for more coolection click view page</p>
+                  <a href="#" class="btn btn-primary">view page</a>
+                </div>
+              </div></div>
+    
+    <!--couple collection-->
+    <h1 style="padding-left: 40px; color: crimson; margin-top: 50px;">Couple collections</h1>
+    <div class="couple_collections">
+      <div class="card" style="width: 18rem;" >
+        <img src="copper couple collection.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+        <div class="card-body">
+          <h5 class="card-title">Copper couple collection</h5>
+          <p class="card-text">One of the unique&bridal looks for couples one of the romantic look collection.</p>
+          <a href="#" class="btn btn-primary">view page</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;" >
+        <img src="metallic couple collection.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+        <div class="card-body">
+          <h5 class="card-title">Metallic couple collection</h5>
+          <p class="card-text">One of the unique&bridal looks for couples one of the romantic look collection.</p>
+          <a href="#" class="btn btn-primary">view page</a>
+        </div></div>
+        <div class="card" style="width: 18rem;" >
+            <img src="lavender copule .jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Couple Wedding collection</h5>
+              <p class="card-text">One of the unique&bridal looks for couples one of the romantic look collection.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;" >
+            <img src="couple cotton.jpg" class="card-img-top" alt="..." style="height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Cotton couple collection</h5>
+              <p class="card-text">One of the unique&bridal looks for couples one of the romantic look collection.</p>
+              <a href="#" class="btn btn-primary">view page</a>
+            </div>
+          </div>
+    </div>
+    <div>
+      <footer class="foot_color" style="margin-top: 20px; padding-top: 30px;">
+        <div class="footer_alignment">
+            <div class="about_alignment">
+            <h2>ABOUT US</h2>
+            <p>SKY Sarees&textiles online shopping is a special online platform for you, particularly for women because we are dealing with the highly skilled Elampillai area small scale weavers who are masters in weaving all type of silk sarees – Indian Bridal Sarees, silk cotton sarees, Indian Traditional Sarees, Handloom Sarees, Silk Sarees, Art Sarees and many more.</p>
+            </div>
+            <div class="address_alignment">
+            <h2>OUR ADDRESS</h2>
+            <P>Plot no 144 vasantham avenue 10th street,vasan nagar,sivan kovil stop,Sikkandar savadi,Madurai-18</P>
+            </div>
+            <div class="follow_align">
+            <h2>FOLLOW US</h2>
+            <P>Stay in touch width us</P>
+            <div class="iconic_color">
+            <a href="">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/sky__sarees_and_textiles_/">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com/shorts/WStK-HdB1lQ">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            </div>
+            </div>
+        </div>
+        <!-- <div ><hr style="border: 1px solid rgb(242, 239, 239);">
+        </div> -->
+        
+        <hr>
+        <div class="final_alignment">
+        <p>© 2024 All rights reserved by VIJAYABASHKARAN M</p>
+        <!-- <p >SKY  saress and textiles</p> -->
+        </div>
+        
+
+    </footer>
+    </div>
+    
+   
+        
+</body>
+</html>
